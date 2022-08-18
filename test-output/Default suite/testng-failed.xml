@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.classes.MyTestClass">
+      <class name="com.test.classes.CheckMovieDetailsTests">
         <methods>
           <include name="initializeDriver"/>
           <include name="quitDriver"/>
           <include name="assertExtractedDetails"/>
         </methods>
-      </class> <!-- com.test.classes.MyTestClass -->
+      </class> <!-- com.test.classes.CheckMovieDetailsTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
