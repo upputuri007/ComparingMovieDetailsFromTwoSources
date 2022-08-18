@@ -20,7 +20,6 @@ public class ReadPropertiesFile {
 	}
 	
 	public String readWebsiteURl(String keyName) {
-		System.out.println(readTestDataPropertyFile().getProperty("IMDBurl"));
 		return readTestDataPropertyFile().getProperty(keyName);
 	}
 	

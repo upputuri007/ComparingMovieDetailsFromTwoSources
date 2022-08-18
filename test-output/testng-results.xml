@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="6" passed="2" failed="1" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-18T11:28:10Z" name="Default suite" finished-at="2022-08-18T11:28:45Z" duration-ms="35129">
+  <suite started-at="2022-08-18T12:01:59Z" name="Default suite" finished-at="2022-08-18T12:02:36Z" duration-ms="36440">
     <groups>
     </groups>
-    <test started-at="2022-08-18T11:28:10Z" name="Default test" finished-at="2022-08-18T11:28:45Z" duration-ms="35129">
+    <test started-at="2022-08-18T12:01:59Z" name="Default test" finished-at="2022-08-18T12:02:36Z" duration-ms="36440">
       <class name="com.test.classes.CheckMovieDetailsTests">
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T11:28:10Z" name="initializeDriver" finished-at="2022-08-18T11:28:12Z" duration-ms="2625" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T12:01:59Z" name="initializeDriver" finished-at="2022-08-18T12:02:03Z" duration-ms="3349" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="getMovieReleaseDateFromIMDB()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T11:28:12Z" name="getMovieReleaseDateFromIMDB" finished-at="2022-08-18T11:28:28Z" duration-ms="15209" status="PASS">
+        <test-method signature="getMovieReleaseDateFromIMDB()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T12:02:03Z" name="getMovieReleaseDateFromIMDB" finished-at="2022-08-18T12:02:19Z" duration-ms="16437" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMovieReleaseDateFromIMDB -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T11:28:28Z" name="quitDriver" finished-at="2022-08-18T11:28:28Z" duration-ms="452" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T12:02:19Z" name="quitDriver" finished-at="2022-08-18T12:02:20Z" duration-ms="375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T11:28:28Z" name="initializeDriver" finished-at="2022-08-18T11:28:30Z" duration-ms="1815" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T12:02:20Z" name="initializeDriver" finished-at="2022-08-18T12:02:21Z" duration-ms="1672" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="getMovieReleaseDateFromWikipedia()[pri:1, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T11:28:30Z" name="getMovieReleaseDateFromWikipedia" finished-at="2022-08-18T11:28:37Z" duration-ms="7459" status="PASS">
+        <test-method signature="getMovieReleaseDateFromWikipedia()[pri:1, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T12:02:21Z" name="getMovieReleaseDateFromWikipedia" finished-at="2022-08-18T12:02:29Z" duration-ms="7979" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMovieReleaseDateFromWikipedia -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T11:28:37Z" name="quitDriver" finished-at="2022-08-18T11:28:38Z" duration-ms="225" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T12:02:29Z" name="quitDriver" finished-at="2022-08-18T12:02:29Z" duration-ms="209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T11:28:38Z" name="initializeDriver" finished-at="2022-08-18T11:28:39Z" duration-ms="1449" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T12:02:29Z" name="initializeDriver" finished-at="2022-08-18T12:02:31Z" duration-ms="1244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="assertExtractedDetails()[pri:2, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T11:28:39Z" name="assertExtractedDetails" finished-at="2022-08-18T11:28:39Z" duration-ms="11" status="SKIP">
+        <test-method signature="assertExtractedDetails()[pri:2, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T12:02:31Z" name="assertExtractedDetails" finished-at="2022-08-18T12:02:31Z" duration-ms="4" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [17 December 2021] but found [January 7, 2022 (United States)]]]>
@@ -80,15 +80,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertExtractedDetails -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T11:28:39Z" name="quitDriver" finished-at="2022-08-18T11:28:39Z" duration-ms="381" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T12:02:31Z" name="quitDriver" finished-at="2022-08-18T12:02:31Z" duration-ms="669" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T11:28:39Z" name="initializeDriver" finished-at="2022-08-18T11:28:41Z" duration-ms="1304" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T12:02:31Z" name="initializeDriver" finished-at="2022-08-18T12:02:32Z" duration-ms="1067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="assertExtractedDetails()[pri:2, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T11:28:41Z" name="assertExtractedDetails" finished-at="2022-08-18T11:28:41Z" duration-ms="1" status="SKIP">
+        <test-method signature="assertExtractedDetails()[pri:2, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T12:02:32Z" name="assertExtractedDetails" finished-at="2022-08-18T12:02:32Z" duration-ms="3" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [17 December 2021] but found [January 7, 2022 (United States)]]]>
@@ -133,15 +133,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertExtractedDetails -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T11:28:41Z" name="quitDriver" finished-at="2022-08-18T11:28:41Z" duration-ms="513" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T12:02:32Z" name="quitDriver" finished-at="2022-08-18T12:02:33Z" duration-ms="301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T11:28:41Z" name="initializeDriver" finished-at="2022-08-18T11:28:43Z" duration-ms="1248" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T12:02:33Z" name="initializeDriver" finished-at="2022-08-18T12:02:34Z" duration-ms="1261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="assertExtractedDetails()[pri:2, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T11:28:43Z" name="assertExtractedDetails" finished-at="2022-08-18T11:28:43Z" duration-ms="1" status="SKIP">
+        <test-method signature="assertExtractedDetails()[pri:2, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T12:02:34Z" name="assertExtractedDetails" finished-at="2022-08-18T12:02:34Z" duration-ms="3" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [17 December 2021] but found [January 7, 2022 (United States)]]]>
@@ -186,15 +186,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertExtractedDetails -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T11:28:43Z" name="quitDriver" finished-at="2022-08-18T11:28:43Z" duration-ms="761" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T12:02:34Z" name="quitDriver" finished-at="2022-08-18T12:02:34Z" duration-ms="315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T11:28:43Z" name="initializeDriver" finished-at="2022-08-18T11:28:45Z" duration-ms="1320" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T12:02:34Z" name="initializeDriver" finished-at="2022-08-18T12:02:35Z" duration-ms="1118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="assertExtractedDetails()[pri:2, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T11:28:45Z" name="assertExtractedDetails" finished-at="2022-08-18T11:28:45Z" duration-ms="1" status="FAIL">
+        <test-method signature="assertExtractedDetails()[pri:2, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T12:02:35Z" name="assertExtractedDetails" finished-at="2022-08-18T12:02:35Z" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [17 December 2021] but found [January 7, 2022 (United States)]]]>
@@ -239,7 +239,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertExtractedDetails -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T11:28:45Z" name="quitDriver" finished-at="2022-08-18T11:28:45Z" duration-ms="280" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.test.classes.CheckMovieDetailsTests@172b013]" started-at="2022-08-18T12:02:35Z" name="quitDriver" finished-at="2022-08-18T12:02:36Z" duration-ms="376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
